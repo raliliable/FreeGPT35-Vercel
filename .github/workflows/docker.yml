@@ -5,6 +5,7 @@ on:
     types: [created]
 
 env:
+  GHCR_REPO: ghcr.io/raliliable/chatapi
   DOCKER_IMAGE_NAME: missuo/freegpt35
   GHCR_IMAGE_NAME: ${{ github.repository }}
   DOCKER_USERNAME: ${{ secrets.DOCKERHUB_USERNAME }}
